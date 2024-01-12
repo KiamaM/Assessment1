@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 50px;
-    border: 1px solid blue;
+    align-items: center;
 }
 
 #minus{
