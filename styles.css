@@ -1,0 +1,95 @@
+body{
+    padding: 20px 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{    
+    display: grid;
+    grid-template-columns: 400px 400px;
+    padding: 50px 20px;
+}
+
+.quantity{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+#minus{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+#plus{
+    max-width: 15%;
+    max-height: 15%;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: orangered;
+
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.images{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+}
+
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.customer{
+    display: flex;
+
+}
+
+.customer img{
+    max-width: 30%;
+    height: auto;
+}
+
+.display img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.options img{
+    max-width: 13%;
+    height: auto;
+    border-radius: 10px;
+}
+
